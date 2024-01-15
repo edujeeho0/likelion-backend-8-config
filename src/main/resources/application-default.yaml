@@ -1,3 +1,4 @@
+# 기본으로 실행
 spring:
   datasource:
     url: jdbc:sqlite:db.sqlite
@@ -5,12 +6,9 @@ spring:
   jpa:
     hibernate:
       ddl-auto: create
-    show-sql: true
+    show-sql: false
     database-platform: org.hibernate.community.dialect.SQLiteDialect
     defer-datasource-initialization: true
   sql:
     init:
       mode: always
-
-logging:
-  config: file:logback-spring-dev.xml

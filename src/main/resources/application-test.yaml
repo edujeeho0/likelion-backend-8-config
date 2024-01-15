@@ -1,7 +1,3 @@
-# 테스트용 설정
-# Entity에 맞게 테이블을 새로 만들지만
-# 테스트용 데이터를 사용하지 않고
-# 실제로 파일로 저장하는 DB가 아닌 H2 in-memory DB사용
 spring:
   datasource:
     url: jdbc:h2:mem:testdb
@@ -9,8 +5,6 @@ spring:
     username: sa
     password: password
   jpa:
-    hibernate:
-      ddl-auto: create
     database: h2
     database-platform: org.hibernate.dialect.H2Dialect
     defer-datasource-initialization: false
@@ -19,5 +13,4 @@ spring:
       mode: never
 
 logging:
-  level:
-    root: trace
+  config: file:logback-spring-test.xml

@@ -1,9 +1,7 @@
-# 특별한 인자 없이 프로젝트 실행시
-# application-dev.yaml을 사용해서 프로젝트 실행
 spring:
   profiles:
-    default: dev
-  # 처음에 나오는 Spring Logo 제거
+    default: default
   main:
     banner-mode: off
+
 
