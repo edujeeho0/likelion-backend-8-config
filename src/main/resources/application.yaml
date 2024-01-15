@@ -1,13 +1,9 @@
+# 특별한 인자 없이 프로젝트 실행시
+# application-dev.yaml을 사용해서 프로젝트 실행
 spring:
-  datasource:
-    url: jdbc:sqlite:db.sqlite
-    driver-class-name: org.sqlite.JDBC
-  jpa:
-    hibernate:
-      ddl-auto: create
-    show-sql: false
-    database-platform: org.hibernate.community.dialect.SQLiteDialect
-    defer-datasource-initialization: true
-  sql:
-    init:
-      mode: always
+  profiles:
+    default: dev
+  # 처음에 나오는 Spring Logo 제거
+  main:
+    banner-mode: off
+

@@ -3,20 +3,27 @@ package com.example.article;
 import com.example.article.dto.ArticleDto;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 
 @Slf4j
+// 요청을 받는 클래스이다.
 @Controller
 @RequestMapping("article")
 @RequiredArgsConstructor
 public class ArticleController {
     private final ArticleService articleService;
+    private static final Logger logger
+            = LoggerFactory.getLogger(ArticleController.class);
 
     @GetMapping
     public String article(Model model) {
+        log.debug("request to /article");
         model.addAttribute("articles", articleService.readAll());
+        log.debug("before return index");
         return "index";
     }
 

@@ -1,0 +1,72 @@
+2024-01-15 14:06:21,874 INFO o.s.b.StartupInfoLogger [main] Starting ArticleApplication using Java 17.0.9 with PID 39408 (/Users/aquashdw/Documents/likelion/2023_backend_8/live/likelion-backend-8-config/build/classes/java/main started by aquashdw in /Users/aquashdw/Documents/likelion/2023_backend_8/live/likelion-backend-8-config)
+2024-01-15 14:06:21,881 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-01-15 14:06:22,561 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-01-15 14:06:22,604 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 38 ms. Found 2 JPA repository interfaces.
+2024-01-15 14:06:23,064 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port 8080 (http)
+2024-01-15 14:06:23,071 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-01-15 14:06:23,073 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-01-15 14:06:23,073 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.17]
+2024-01-15 14:06:23,114 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-01-15 14:06:23,115 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1179 ms
+2024-01-15 14:06:23,227 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-01-15 14:06:23,254 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.4.1.Final
+2024-01-15 14:06:23,270 INFO o.h.c.i.RegionFactoryInitiator [main] HHH000026: Second-level cache disabled
+2024-01-15 14:06:23,412 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-01-15 14:06:23,451 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2024-01-15 14:06:23,843 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection org.sqlite.jdbc4.JDBC4Connection@be6d228
+2024-01-15 14:06:23,845 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2024-01-15 14:06:24,365 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-01-15 14:06:24,381 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-01-15 14:06:24,707 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-01-15 14:06:24,721 INFO o.s.b.a.w.s.WelcomePageHandlerMapping [main] Adding welcome page template: index
+2024-01-15 14:06:25,020 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-01-15 14:06:25,030 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port 8080 (http) with context path ''
+2024-01-15 14:06:25,040 INFO o.s.b.StartupInfoLogger [main] Started ArticleApplication in 3.643 seconds (process running for 4.149)
+2024-01-15 14:06:25,042 INFO c.e.a.ArticleApplication [pool-2-thread-1] log test 2024-01-15T14:06:25.042847
+2024-01-15 14:06:25,543 INFO c.e.a.ArticleApplication [pool-2-thread-1] log test 2024-01-15T14:06:25.543161
+2024-01-15 14:06:26,043 INFO c.e.a.ArticleApplication [pool-2-thread-1] log test 2024-01-15T14:06:26.043462
+2024-01-15 14:06:26,543 INFO c.e.a.ArticleApplication [pool-2-thread-1] log test 2024-01-15T14:06:26.542980
+2024-01-15 14:06:27,043 INFO c.e.a.ArticleApplication [pool-2-thread-1] log test 2024-01-15T14:06:27.043120
+2024-01-15 14:06:27,543 INFO c.e.a.ArticleApplication [pool-2-thread-1] log test 2024-01-15T14:06:27.543777
+2024-01-15 14:06:28,043 INFO c.e.a.ArticleApplication [pool-2-thread-1] log test 2024-01-15T14:06:28.043789
+2024-01-15 14:06:28,543 INFO c.e.a.ArticleApplication [pool-2-thread-1] log test 2024-01-15T14:06:28.543873
+2024-01-15 14:06:29,043 INFO c.e.a.ArticleApplication [pool-2-thread-1] log test 2024-01-15T14:06:29.043823
+2024-01-15 14:06:29,543 INFO c.e.a.ArticleApplication [pool-2-thread-1] log test 2024-01-15T14:06:29.543168
+2024-01-15 14:06:30,043 INFO c.e.a.ArticleApplication [pool-2-thread-1] log test 2024-01-15T14:06:30.043066
+2024-01-15 14:06:30,542 INFO c.e.a.ArticleApplication [pool-2-thread-1] log test 2024-01-15T14:06:30.542916
+2024-01-15 14:06:31,043 INFO c.e.a.ArticleApplication [pool-2-thread-1] log test 2024-01-15T14:06:31.043411
+2024-01-15 14:06:31,544 INFO c.e.a.ArticleApplication [pool-2-thread-1] log test 2024-01-15T14:06:31.544115
+2024-01-15 14:06:32,043 INFO c.e.a.ArticleApplication [pool-2-thread-1] log test 2024-01-15T14:06:32.043061
+2024-01-15 14:06:32,543 INFO c.e.a.ArticleApplication [pool-2-thread-1] log test 2024-01-15T14:06:32.543870
+2024-01-15 14:06:33,042 INFO c.e.a.ArticleApplication [pool-2-thread-1] log test 2024-01-15T14:06:33.042919
+2024-01-15 14:06:33,543 INFO c.e.a.ArticleApplication [pool-2-thread-1] log test 2024-01-15T14:06:33.543376
+2024-01-15 14:06:34,043 INFO c.e.a.ArticleApplication [pool-2-thread-1] log test 2024-01-15T14:06:34.043764
+2024-01-15 14:06:34,543 INFO c.e.a.ArticleApplication [pool-2-thread-1] log test 2024-01-15T14:06:34.543830
+2024-01-15 14:06:35,043 INFO c.e.a.ArticleApplication [pool-2-thread-1] log test 2024-01-15T14:06:35.043564
+2024-01-15 14:06:35,543 INFO c.e.a.ArticleApplication [pool-2-thread-1] log test 2024-01-15T14:06:35.543832
+2024-01-15 14:06:36,043 INFO c.e.a.ArticleApplication [pool-2-thread-1] log test 2024-01-15T14:06:36.043938
+2024-01-15 14:06:36,543 INFO c.e.a.ArticleApplication [pool-2-thread-1] log test 2024-01-15T14:06:36.543916
+2024-01-15 14:06:37,043 INFO c.e.a.ArticleApplication [pool-2-thread-1] log test 2024-01-15T14:06:37.043907
+2024-01-15 14:06:37,543 INFO c.e.a.ArticleApplication [pool-2-thread-1] log test 2024-01-15T14:06:37.543922
+2024-01-15 14:06:38,043 INFO c.e.a.ArticleApplication [pool-2-thread-1] log test 2024-01-15T14:06:38.043854
+2024-01-15 14:06:38,543 INFO c.e.a.ArticleApplication [pool-2-thread-1] log test 2024-01-15T14:06:38.543847
+2024-01-15 14:06:39,043 INFO c.e.a.ArticleApplication [pool-2-thread-1] log test 2024-01-15T14:06:39.043824
+2024-01-15 14:06:39,543 INFO c.e.a.ArticleApplication [pool-2-thread-1] log test 2024-01-15T14:06:39.543875
+2024-01-15 14:06:40,043 INFO c.e.a.ArticleApplication [pool-2-thread-1] log test 2024-01-15T14:06:40.043536
+2024-01-15 14:06:40,543 INFO c.e.a.ArticleApplication [pool-2-thread-1] log test 2024-01-15T14:06:40.543862
+2024-01-15 14:06:41,043 INFO c.e.a.ArticleApplication [pool-2-thread-1] log test 2024-01-15T14:06:41.043199
+2024-01-15 14:06:41,543 INFO c.e.a.ArticleApplication [pool-2-thread-1] log test 2024-01-15T14:06:41.543888
+2024-01-15 14:06:42,043 INFO c.e.a.ArticleApplication [pool-2-thread-1] log test 2024-01-15T14:06:42.043854
+2024-01-15 14:06:42,543 INFO c.e.a.ArticleApplication [pool-2-thread-1] log test 2024-01-15T14:06:42.543330
+2024-01-15 14:06:43,043 INFO c.e.a.ArticleApplication [pool-2-thread-1] log test 2024-01-15T14:06:43.043535
+2024-01-15 14:06:43,543 INFO c.e.a.ArticleApplication [pool-2-thread-1] log test 2024-01-15T14:06:43.543879
+2024-01-15 14:06:44,043 INFO c.e.a.ArticleApplication [pool-2-thread-1] log test 2024-01-15T14:06:44.043853
+2024-01-15 14:06:44,543 INFO c.e.a.ArticleApplication [pool-2-thread-1] log test 2024-01-15T14:06:44.543926
+2024-01-15 14:06:45,043 INFO c.e.a.ArticleApplication [pool-2-thread-1] log test 2024-01-15T14:06:45.043949
+2024-01-15 14:06:45,543 INFO c.e.a.ArticleApplication [pool-2-thread-1] log test 2024-01-15T14:06:45.543926
+2024-01-15 14:06:46,043 INFO c.e.a.ArticleApplication [pool-2-thread-1] log test 2024-01-15T14:06:46.043948
+2024-01-15 14:06:46,543 INFO c.e.a.ArticleApplication [pool-2-thread-1] log test 2024-01-15T14:06:46.543949
+2024-01-15 14:06:47,044 INFO c.e.a.ArticleApplication [pool-2-thread-1] log test 2024-01-15T14:06:47.043983
+2024-01-15 14:06:47,380 INFO o.s.o.j.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-01-15 14:06:47,382 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2024-01-15 14:06:47,383 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.

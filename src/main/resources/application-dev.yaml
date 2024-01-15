@@ -1,0 +1,21 @@
+# 개발용 설정
+# Entity에 맞게 테이블도 새로 만들고
+# 테스트용 데이터가 있다면 데이터로 테이블 채워주고
+spring:
+  datasource:
+    url: jdbc:sqlite:db.sqlite
+    driver-class-name: org.sqlite.JDBC
+  jpa:
+    hibernate:
+      ddl-auto: create
+    show-sql: true
+    database-platform: org.hibernate.community.dialect.SQLiteDialect
+    defer-datasource-initialization: true
+  sql:
+    init:
+      mode: always
+
+logging:
+  level:
+    root: info
+    com.example.article: trace
